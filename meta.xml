@@ -1,0 +1,8 @@
+<meta>
+	<info author = "Text" />
+	<script src = "main_s.lua" />
+	<script src = "helpful_procedures-s.lua" />
+	<script src = "settings-s.lua" />
+	<script type = "client" src = "main_c.lua" cache = "false" />
+	<min_mta_version server="1.5.2-9.07903" client="1.5.2-9.07903" />
+</meta>

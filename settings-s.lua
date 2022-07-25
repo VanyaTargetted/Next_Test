@@ -1,0 +1,9 @@
+NAME_DB = "players_data"
+HOST_VALUE = "127.0.0.1"
+PORT_VALUE = "3306"
+USER_NAME = "root"
+USER_PASSWORD = "12345"
+SIZE_OF_PAGE = 4
+MAX_COUNT_QUERY_PER_SECOND = 5
+QUERY_FOR_ADDING_DATA = "INSERT INTO everydata(jsonPar) SELECT * FROM (SELECT ?) AS tmp WHERE NOT EXISTS ( SELECT jsonPar FROM everydata WHERE jsonPar = ? )"
+STRING_FOR_CONNECTION = "dbname=" .. NAME_DB .. ";host=" .. HOST_VALUE .. ";port=" .. PORT_VALUE
