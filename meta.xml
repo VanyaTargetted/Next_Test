@@ -1,0 +1,6 @@
+<meta>
+	<info author = "Text" />
+	<script src = "main_s.lua" />
+	<script type = "client" src = "main_c.lua" cache = "false" /> 
+	<file src = "logo.png" /> 
+</meta>
